@@ -1,0 +1,94 @@
+.gradient-background {
+    background: linear-gradient(300deg, #82ABF5, #6AB1DE, #78EAFA);
+    background-size: 180% 180%;
+    animation: gradient-animation 1s ease infinite;
+  }
+#introname{
+    font-family: serif;
+}
+#introdis{
+    font-family: sans-serif;
+}
+.coding-img{
+    height: 200px;
+    width: 300px;
+}
+.movies-img{
+    height: 200px;
+    width: 300px;
+}
+#skill{
+    text-align: center;
+    font-family: serif;
+    padding: 20px;
+    font-size: 2.5rem;
+}
+.coding{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 20px;
+}
+.movies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.card{
+    background-color: #D8E825;
+}
+.tile-image{
+    height: 200px;
+    width: 300px;
+    align-items: center;
+    float: middle;
+}
+.text{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.parent{
+    padding-bottom: 40px;
+}
+.contact-me{
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+}
+#touch1{
+    color: #6AB1DE;
+    padding: 20px;
+}
+#touch2{
+    color: aqua;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.contact-message{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.btn{
+    margin: 20px;
+}
+@media (max-width: 1000px){
+    .text{
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
